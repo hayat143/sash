@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxs{
+            display: flex;
+        }
+        .box1{
+            height: 300px;
+            width: 400px;
+            background-color: white;
+            position: absolute;
+            lefts: 100px;
+            margin: 30px;
+            box-shadow: 0px 5px 6px;
+        }
+        .box2{
+            height: 300px;
+            width: 400px;
+            background-color:white;
+            position: absolute;
+            right: 450px;
+            margin: 30px;
+            box-shadow: 0px 5px 6px;
+            
+        }
+        .ii{
+            padding: 10px;
+            border-bottom: 1pixcel solid #eee;
+        
+        }
+        .em{
+            padding: 8px;
+            border-bottom: 1pixcel solid #eee;
+        }
+        .sub{
+            background-color: rgb(223, 24, 223);
+            border-radius: 8px;
+            padding: 10px;
+            border: none;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxs">
+        <div class="box1">
+    <input type="txt" value="Vartical forms" size="50" class="ii">
+    <label>
+        email address<br>
+        <input type="text" placeholder="enter email adress" size="50" class="em">
+    </label>
+    <label>
+        Password<br>
+        <input type="password" placeholder="enter password" size="50" class="em">
+    </label><br><br>
+    <input type="checkbox"> Check Me Out <br><br>
+    <input type="submit" class="sub">
+        </div>
+        <div class="box2">
+            <input type="txt" value="Horizantal Form" size="50" class="ii"><br><br>
+            
+                first Name  <input type="text" placeholder="Name" class="em"><br><br>
+                Email        <input type="text" placeholder="Email" class="em"> <br><br>
+                Password     <input type="password" placeholder="password" class="em"><br><br>
+                <input type="checkbox"> Check Me Out <br><br>
+                <input type="submit" class="sub">  <input type="submit" value="cencel" class="sub">
+        </div>
+    </div>
+   
+</body>
+</html>
